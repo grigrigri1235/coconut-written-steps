@@ -1,0 +1,8 @@
+# copied to final_submission/.gitignore by make_submission.sh
+__pycache__/
+# made by coconut/preprocessing/gsm_icot.bash (the train file is over GitHub's 100 MB limit)
+coconut/data/gsm_train.json
+coconut/data/gsm_valid.json
+coconut/data/gsm_test.json
+# fine-tuned models (~0.5 GB each), made by coconut/experiments/simcot_finetune.py
+coconut/checkpoints_ft/
